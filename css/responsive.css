@@ -1,0 +1,186 @@
+/* Responsive Design */
+
+/* Mobile */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  header .navbar-brand img {
+    max-width: 150px;
+  }
+
+  header .navbar-nav {
+    text-align: center;
+  }
+
+  .hero-section {
+    padding: 50px 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5em;
+  }
+
+  .hero-section p {
+    font-size: 1em;
+  }
+
+  .hero-section .btn {
+    margin-bottom: 10px;
+  }
+
+  .welcome-section,
+  .services-section,
+  .booking-process-section,
+  .cleaning-plans-section,
+  .get-started-section,
+  .testimonials-section,
+  .as-seen-on-section,
+  footer {
+    padding: 40px 15px;
+  }
+
+  .welcome-section .row {
+    flex-direction: column;
+  }
+
+  .welcome-section .col-md-6 {
+    width: 100%;
+  }
+
+  .services-section .service-block {
+    margin-bottom: 20px;
+  }
+
+  .booking-process-section .step-block {
+    margin-bottom: 20px;
+  }
+
+  .cleaning-plans-section .plan-card {
+    margin-bottom: 20px;
+  }
+
+  .testimonials-section .testimonial {
+    margin-bottom: 20px;
+  }
+
+  .modal-content {
+    margin: 10px;
+  }
+
+  footer .footer-links {
+    margin-bottom: 20px;
+  }
+  footer .col-md-4 {
+    margin-bottom: 20px;
+  }
+  footer .col-md-8 {
+    margin-bottom: 20px;
+  }
+
+  footer .social-links {
+    margin-bottom: 20px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .hero-section {
+    padding: 70px 30px;
+  }
+
+  .hero-section h1 {
+    font-size: 3em;
+  }
+
+  .hero-section p {
+    font-size: 1.1em;
+  }
+
+  .welcome-section,
+  .services-section,
+  .booking-process-section,
+  .cleaning-plans-section,
+  .get-started-section,
+  .testimonials-section,
+  .as-seen-on-section,
+  footer {
+    padding: 60px 30px;
+  }
+
+  .welcome-section .col-md-6 {
+    width: 50%;
+  }
+
+  .services-section .service-block {
+    margin-bottom: 30px;
+  }
+
+  .booking-process-section .step-block {
+    margin-bottom: 30px;
+  }
+
+  .cleaning-plans-section .plan-card {
+    margin-bottom: 30px;
+  }
+
+  .testimonials-section .testimonial {
+    margin-bottom: 30px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  .hero-section {
+    padding: 100px 40px;
+  }
+
+  .hero-section h1 {
+    font-size: 3.5em;
+  }
+
+  .hero-section p {
+    font-size: 1.2em;
+  }
+
+  .welcome-section,
+  .services-section,
+  .booking-process-section,
+  .cleaning-plans-section,
+  .get-started-section,
+  .testimonials-section,
+  .as-seen-on-section,
+  footer {
+    padding: 80px 40px;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1440px) {
+  .hero-section h1 {
+    font-size: 4em;
+  }
+}
